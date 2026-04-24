@@ -1,0 +1,21 @@
+{
+    "name": "kcpocket/kcpocket-php",
+    "description": "KCPocket PHP 8 Version",
+    "type": "project",
+    "require": {
+        "smarty/smarty": "^4.0",
+        "firebase/php-jwt": "^6.0",
+        "ramsey/uuid": "^4.9"
+    },
+    "authors": [
+        {
+            "name": "Manus AI",
+            "email": "contact@manus.im"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KCPocket\\": "src/"
+        }
+    }
+}
